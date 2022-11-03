@@ -109,17 +109,110 @@ h1{
     padding: 120px 0 0 60px;
 }
 
+.padding{
+    padding: 25px 20px;
+}
+
 h2{
     font-family: 'Mukta Vaani', sans-serif;
-    font-size: 35px;
     color: black;
+    font-size: 35px;
 }
 
 .radio{
     display: inline-block;
-    padding-right: 40px;
+    padding: 30px 40px 25px 0;
+    font-size: 15px;
+    }
+
+/*3 colonne*/
+h3{
+    font-family: 'Mukta Vaani', sans-serif;
+    color: black;
+    font-size: 23px;
 }
 
 
+.col-fat{
+    margin-top: 10px;
+    width: 260px;
+    border: 1px solid rgb(187, 187, 187);
+}
 
+.border-bottom{
+    text-align: center;
+    font-size: 14px;
+    border-bottom:  1px solid rgb(187, 187, 187);
+    padding: 5px;
+}
 
+.grassetto{
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/*stile lista*/
+.col-fat ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.col-fat ul{
+    font-size: 13px ;
+}
+
+/*ICON*/
+.icon-user{
+    color: black;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.fa-euro-sign{
+    color: black;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.icon{
+    color: black;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/*button*/
+
+.col-fat button{
+    border-style: none;
+    background-color: rgb(23, 79, 248);
+    color: white;
+    margin: 30px 0;
+    padding: 10px 40px;
+}
+
+/*seconda lista-check*/
+
+hr{
+    color: rgba(167, 167, 167, 0.881);
+    background: rgba(180, 179, 179, 0.821);
+    border: 0;
+    height: 1px;
+    width: 50px;
+    margin: 25px 0;
+}
+
+.fa-check{
+    color: rgb(23, 79, 248);
+}
+
+/*col-tean*/
+
+.col-team{
+    height: 400px;
+}
