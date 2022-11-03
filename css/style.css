@@ -46,7 +46,7 @@ header li{
     margin: 10px;
 }
 
-.col-2-header button{
+button{
     border-style: none;
     background-color: rgb(23, 79, 248);
     color: white;
@@ -56,11 +56,11 @@ header li{
 /*MAIN*/
 
 .background-box{
-    height: 500px;
+    height: 550px;
     background-color: rgba(177, 209, 235, 0.862)
 }
 
-/*Titolo main*/
+/*Prima riga-titolo main*/
 h1{
     font-family: 'Mukta Malar', sans-serif;
     color: black;
@@ -69,5 +69,26 @@ h1{
     line-height: 1;
 }
 
-/*Titolo main*/
+/*Seconda riga-titolo main*/
+.row{
+    position: relative;
+}
+
+.col-text{
+    width: 30%;
+    padding-top: 15px;
+}
+
+.col-jumbo img{
+    vertical-align: middle;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+
+
+
+
 
