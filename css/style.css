@@ -5,13 +5,17 @@
 }
 
 body{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;
     color: rgb(121, 119, 119);
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
 }
 
 /*HEADER*/
 header{
-    background-color: lightblue;
     height: 50px;
     padding: 10px;
     display: flex;
@@ -48,3 +52,22 @@ header li{
     color: white;
     padding: 5px 10px;
 }
+
+/*MAIN*/
+
+.background-box{
+    height: 500px;
+    background-color: rgba(177, 209, 235, 0.862)
+}
+
+/*Titolo main*/
+h1{
+    font-family: 'Mukta Malar', sans-serif;
+    color: black;
+    font-size: 65px;
+    padding: 60px 0 40px 0;
+    line-height: 1;
+}
+
+/*Titolo main*/
+
