@@ -71,10 +71,6 @@ h1{
 }
 
 /*Seconda riga*/
-.row{
-    position: relative;
-}
-
 .col-text{
     width: 30%;
     padding-top: 15px;
@@ -99,18 +95,24 @@ h1{
 .col-jumbo img{
     height: 350px;
     position: absolute;
-    right: 0;
-    top: 30px;
+    left: 520px;
+    top: 300px;
 }
 
 /*SECONDA PARTE MAIN*/
 
 .section{
-    padding: 120px 0 0 60px;
+    padding: 90px 0 0 60px;
 }
 
 .padding{
     padding: 25px 20px;
+}
+
+.row-fat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h2{
@@ -135,6 +137,7 @@ h3{
 
 .col-fat{
     margin-top: 10px;
+    margin-right: 40px;
     width: 260px;
     border: 1px solid rgb(187, 187, 187);
 }
