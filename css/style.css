@@ -4,13 +4,47 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Karla', sans-serif;
+    color: rgb(121, 119, 119);
+}
+
 /*HEADER*/
 header{
     background-color: lightblue;
     height: 50px;
+    padding: 10px;
     display: flex;
+    align-items: center;
 }
 
+.col-1-header, .col-2-header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
 
+.col-2-header{
+    display: flex;
+    justify-content: flex-end;
+}
 
+header ul{
+    display: flex;
+    align-items: center;
+}
 
+header li{ 
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.col-2-header button{
+    border-style: none;
+    background-color: rgb(23, 79, 248);
+    color: white;
+    padding: 5px 10px;
+}
