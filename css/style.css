@@ -60,6 +60,7 @@ button{
     background-color: rgba(177, 209, 235, 0.862)
 }
 
+/*PRIMA PARTE MAIN*/
 /*Prima riga-titolo main*/
 h1{
     font-family: 'Mukta Malar', sans-serif;
@@ -69,7 +70,7 @@ h1{
     line-height: 1;
 }
 
-/*Seconda riga-titolo main*/
+/*Seconda riga*/
 .row{
     position: relative;
 }
@@ -77,17 +78,47 @@ h1{
 .col-text{
     width: 30%;
     padding-top: 15px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.col-text button{
+    padding: 10px;
+    font-size: 12px;
+    margin: 20px 0 20px 0;
+}
+
+.col-text span{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
 }
 
 .col-jumbo img{
-    vertical-align: middle;
     height: 350px;
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 30px;
 }
 
+/*SECONDA PARTE MAIN*/
 
+.section{
+    padding: 120px 0 0 60px;
+}
+
+h2{
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+.radio{
+    display: inline-block;
+    padding-right: 40px;
+}
 
 
 
