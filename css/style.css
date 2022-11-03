@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+}
+
+
+
+
