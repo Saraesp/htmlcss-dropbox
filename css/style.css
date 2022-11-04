@@ -457,4 +457,28 @@ hr{
     left: 30%;
 }
 
-/*stile img e bg squares*/
+/*bg-blue*/
+.style-bg{
+    height: 150px;
+    background-color: rgba(177, 209, 235, 0.862);
+}
+
+.row-content-1{
+    display: flex;
+    padding: 40px 0;
+    position: relative;
+}
+
+.col-h2{
+    width: 50%;
+    line-height: 1.2;
+    color: rgba(97,8,43,255);
+}
+
+.col-btn button{
+     background-color: white;
+     color: grey;
+     padding: 10px 35px;
+     position: absolute;
+     right: 0;
+}
