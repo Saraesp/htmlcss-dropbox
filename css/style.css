@@ -14,6 +14,11 @@ body{
     margin: 0 auto;
 }
 
+.container-1{
+    width: 55%;
+    margin: 0 auto;
+}
+
 /*HEADER*/
 header{
     height: 50px;
@@ -166,7 +171,7 @@ p{
 
 .col-fat li{
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
 }
 
@@ -196,8 +201,8 @@ p{
     background-color: rgb(23, 79, 248);
     color: white;
     margin: 30px 0;
-    padding: 10px 27px;
-    font-size: 13px;
+    padding: 10px 25px;
+    font-size: 12px;
 }
 
 /*seconda lista-check*/
@@ -215,7 +220,7 @@ hr{
     color: rgb(23, 79, 248);
 }
 
-/*col-tean*/
+/*row-tean*/
 .col-team{
     margin-top: 20px;
     border: 1px solid rgb(187, 187, 187);
@@ -238,5 +243,20 @@ hr{
 
 .col-button-team button{
     padding: 8px 25px;
+}
+
+/*row partner*/
+.row-partner{
+    margin-top: 100px;
+    display: flex;
+}
+
+.img-height img{
+    height: 400px;
+}
+
+.width-40{
+    width: 40%;
+    margin: 40px 30px;
 }
 
