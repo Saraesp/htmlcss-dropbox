@@ -73,9 +73,10 @@ h1{
 /*Seconda riga*/
 .col-text{
     width: 30%;
-    padding-top: 15px;
+    padding-top: 20px;
     line-height: 1.2;
     font-size: 15px;
+    float: left;
 }
 
 .col-text button{
@@ -84,35 +85,28 @@ h1{
     margin: 20px 0 20px 0;
 }
 
-.col-text span{
+.fa-arrow-down{
     font-size: 30px;
     color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
+    margin-top: 80px;
 }
 
 .col-jumbo img{
     height: 350px;
-    position: absolute;
-    left: 520px;
-    top: 300px;
+    margin-top: 25px;
 }
 
 /*SECONDA PARTE MAIN*/
-
-.section{
-    padding: 90px 0 0 60px;
-}
-
 .padding{
     padding: 25px 20px;
 }
 
+.section{
+    margin-top: 100px;
+}
+
 .row-fat{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 h2{
@@ -138,11 +132,12 @@ h3{
 .col-fat{
     margin-top: 10px;
     margin-right: 40px;
-    width: 260px;
+    height: 810px;
+    width: 250px;
     border: 1px solid rgb(187, 187, 187);
 }
 
-.border-bottom{
+.border-buttom{
     text-align: center;
     font-size: 14px;
     border-bottom:  1px solid rgb(187, 187, 187);
@@ -156,7 +151,7 @@ h3{
 }
 
 p{
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 5px;
 }
 
@@ -166,8 +161,9 @@ p{
     margin-top: 30px;
 }
 
-.col-fat ul{
-    font-size: 13px ;
+.col-fat li{
+    font-size: 15px;
+    display: flex;
 }
 
 /*ICON*/
@@ -186,7 +182,7 @@ p{
 .icon{
     color: black;
     font-size: 12px;
-    margin-right: 5px;
+    margin: 5px 5px 0 0;
 }
 
 /*button*/
@@ -196,7 +192,8 @@ p{
     background-color: rgb(23, 79, 248);
     color: white;
     margin: 30px 0;
-    padding: 10px 40px;
+    padding: 10px 27px;
+    font-size: 13px;
 }
 
 /*seconda lista-check*/
@@ -217,5 +214,5 @@ hr{
 /*col-tean*/
 
 .col-team{
-    height: 400px;
 }
+
