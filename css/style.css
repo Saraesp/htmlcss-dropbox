@@ -131,13 +131,16 @@ h3{
 
 .col-fat{
     margin-top: 10px;
-    margin-right: 40px;
-    height: 810px;
-    width: 250px;
+    height: 830px;
+    width: 100%;
     border: 1px solid rgb(187, 187, 187);
 }
 
-.border-buttom{
+.margin-right{
+    margin-right: 40px;
+}
+
+.border-bottom{
     text-align: center;
     font-size: 14px;
     border-bottom:  1px solid rgb(187, 187, 187);
@@ -162,6 +165,7 @@ p{
 }
 
 .col-fat li{
+    margin-top: 10px;
     font-size: 15px;
     display: flex;
 }
@@ -212,7 +216,27 @@ hr{
 }
 
 /*col-tean*/
-
 .col-team{
+    margin-top: 20px;
+    border: 1px solid rgb(187, 187, 187);
+    position: relative;
+}
+
+.col-content{
+    padding: 20px;
+}
+
+.content{
+    width: 60%;
+}
+
+.col-button-team{
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+.col-button-team button{
+    padding: 8px 25px;
 }
 
