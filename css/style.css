@@ -117,7 +117,7 @@ h1{
 h2{
     font-family: 'Mukta Vaani', sans-serif;
     color: black;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .radio{
@@ -232,7 +232,12 @@ hr{
 }
 
 .content{
-    width: 60%;
+    width: 70%;
+}
+
+.content .text-partner{
+    line-height: 1.2;
+    margin-top: 30px;
 }
 
 .col-button-team{
@@ -247,7 +252,8 @@ hr{
 
 /*row partner*/
 .row-partner{
-    margin-top: 100px;
+    margin: 100px 0;
+    line-height: 1.2;
     display: flex;
 }
 
@@ -266,5 +272,36 @@ hr{
     color: rgb(126, 125, 125);
     padding: 7px;
     font-size: 12px;
+    margin-top: 20px;
+}
+
+/*row calc*/
+.row-calc{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-drop{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.margin-right-10{
+    margin-right: 30px;
+}
+
+.col-drop img{
+    height: 150px;
+}
+
+.col-drop h3{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.col-drop p{
+    font-size: 15px;
+    line-height: 1.2;
     margin-top: 20px;
 }
