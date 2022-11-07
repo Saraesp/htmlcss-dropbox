@@ -482,3 +482,81 @@ hr{
      position: absolute;
      right: 0;
 }
+
+/*domande frequenti*/
+.style-domande hr{
+    width: 100%;
+}
+
+.style-domande p{
+    font-family: 'Mukta Vaani', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+.fa-angle-down{
+    display: flex;
+    margin: 10px;
+}
+
+.box-domande{
+    margin: 100px 0;
+}
+
+/*FOOTER*/
+
+.bg-footer{
+    background-color: black;
+}
+
+.li-footer{
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    line-height: 1.5; 
+}
+
+.row-1{
+    display: flex;
+    justify-content: center; 
+    padding: 60px 0;
+}
+
+.col-sm{
+    margin-right: 70px;
+}
+
+h3{
+    font-size: 18px;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ita::after{
+    color: white;
+    content: '\25B2';
+    font-size: 7px;
+    padding: 10px;
+}
+
+.bg-footer hr{
+    width: 80px;
+}
+
+.fa-earth{
+    font-size: 13px;
+    color: white;
+    padding-right: 20px;
+    
+}
+
+footer span{
+    font-size: 13px;
+    color: white;
+}
+
+footer .padding-{
+    padding: 20px 240px;
+}
+
